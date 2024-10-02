@@ -19,13 +19,11 @@
 ## Cài đặt
 
 1. Clone repository này:
-git clone https://github.com/kevinkieu/gemini-stable.git
-cd gemini-stable
-
+"git clone https://github.com/kevinkieu/gemini-stable.git
+cd gemini-stable"
 
 3. Cài đặt các thư viện cần thiết:
-4. pip install python-telegram-bot google-generativeai python-dotenv Pillow
-
+pip install python-telegram-bot google-generativeai python-dotenv Pillow
 
 5. Tạo file `.env` trong thư mục gốc của dự án và thêm các thông tin sau:
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
