@@ -1,6 +1,6 @@
 # Gemini Telegram Bot
 
-Đây là một Telegram bot được hỗ trợ bởi Google's Gemini AI, có khả năng xử lý cả văn bản và hình ảnh.
+Đây là một Telegram bot được hỗ trợ bởi Google's Gemini AI, có khả năng xử lý cả văn bản và hình ảnh. Toàn bộ source code của Dự án này được viết trên ngôn ngữ Python, bởi Claude 3.5 Sonnet theo yêu cầu và workflow mà Huân đưa ra, sau đó chỉnh sửa và thêm thắt các ý tưởng, các chức năng thêm cho hoàn chỉnh.
 
 ## Tính năng
 
@@ -12,7 +12,7 @@
 
 ## Yêu cầu
 
-- Python 3.7+ (Huân đang dùng Python 3.11 trên Ubuntu 20.04 nhé)
+- Python 3.9+ (Huân đang dùng Python 3.11 trên Ubuntu 20.04 nhé)
 - Một Telegram Bot Token (dùng BotFather tạo bot mới và lấy token)
 - Một Google API Key cho Gemini.
 
