@@ -23,17 +23,17 @@ git clone https://github.com/kevinkieu/gemini-stable.git
 cd gemini-stable
 
 
-2. Cài đặt các thư viện cần thiết:
-pip install python-telegram-bot google-generativeai python-dotenv Pillow
+3. Cài đặt các thư viện cần thiết:
+4. pip install python-telegram-bot google-generativeai python-dotenv Pillow
 
 
-3. Tạo file `.env` trong thư mục gốc của dự án và thêm các thông tin sau:
+5. Tạo file `.env` trong thư mục gốc của dự án và thêm các thông tin sau:
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 GOOGLE_API_KEY=your_google_api_key_here
 ALLOWED_USERS=username1,username2,username3
 
 
-4. Tạo file `system_instruction.txt` trong thư mục gốc và thêm hướng dẫn hệ thống cho bot:
+6. Tạo file `system_instruction.txt` trong thư mục gốc và thêm hướng dẫn hệ thống cho bot:
 You are a helpful AI assistant (vân vân, tự bạn thêm vào nhé...).
 
 
@@ -68,6 +68,5 @@ python main.py  (hoặc python3 main.py)
 - Để thêm hoặc xóa người dùng được phép, cập nhật `ALLOWED_USERS` trong file `.env`.
 
 ## Đóng góp
-
 Mọi đóng góp đều được hoan nghênh. Vui lòng mở một issue hoặc tạo pull request để đóng góp.
 
