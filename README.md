@@ -21,6 +21,9 @@
 1. Clone repository này:
 ```
 git clone https://github.com/kevinkieu/gemini-stable.git
+```
+và di chuyển đến thư mục gốc của dự án:
+```
 cd gemini-stable
 ```
 
