@@ -19,10 +19,12 @@
 
 ## Cài đặt
 1. Clone repository này:
-- git clone https://github.com/kevinkieu/gemini-stable.git
-- cd gemini-stable
+```
+git clone https://github.com/kevinkieu/gemini-stable.git
+cd gemini-stable
+```
 
-2. Cài đặt các thư viện cần thiết:
+3. Cài đặt các thư viện cần thiết:
 - pip install python-telegram-bot google-generativeai python-dotenv Pillow pdfplumber
 
 3. Tạo file `.env` trong thư mục gốc của dự án và thêm các thông tin sau:
