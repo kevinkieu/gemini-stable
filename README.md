@@ -57,7 +57,13 @@ You are a helpful AI assistant (vân vân, tự bạn thêm vào nhé...).
 ## Sử dụng
 
 1. Chạy bot:
-python main.py  (hoặc python3 main.py)
+```
+python main.py
+```
+hoặc
+```
+python3 main.py
+```
 
 2. Trong Telegram, bắt đầu một cuộc trò chuyện với bot của bạn.
 
@@ -75,5 +81,5 @@ python main.py  (hoặc python3 main.py)
 
 ## Đóng góp
 
-Mọi đóng góp đều được hoan nghênh. Vui lòng mở một issue hoặc tạo pull request để đóng góp.
+Mọi đóng góp đều được hoan nghênh. Vui lòng mở một issue hoặc tạo pull request để đóng góp. Hoặc có thể ping Huân qua Telegram nhé @huank8895.
 
