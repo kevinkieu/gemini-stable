@@ -6,7 +6,7 @@
 
 - Xử lý tin nhắn văn bản
 - Phân tích hình ảnh (với hoặc không có caption)
-- Xửu lý file PDF
+- Xử lý file PDF
 - Giới hạn quyền truy cập cho người dùng cụ thể
 - Lưu trữ và sử dụng lịch sử hội thoại
 - Định dạng phản hồi bằng HTML
