@@ -12,7 +12,7 @@ MODEL_NAME = "gemini-1.5-flash-8b-exp-0924"
 TEMPERATURE = 0.7
 TOP_P = 0.95
 TOP_K = 34
-MAX_TOKENS = 2024
+MAX_TOKENS = 8024
 
 
 try:
@@ -24,3 +24,24 @@ except FileNotFoundError:
 
 # Conversation settings
 MAX_HISTORY = 25
+
+SAFETY_SETTINGS = [
+    {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "threshold": "BLOCK_NONE"
+    },
+    {
+        "category": "HARM_CATEGORY_HATE_SPEECH",
+        "threshold": "BLOCK_NONE"
+    },
+    {
+        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+        "threshold": "BLOCK_NONE"
+    },
+    {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "threshold": "BLOCK_NONE"
+    },
+]
+
+TELEGRAM_MSG_CHAR_LIMIT = 4096
