@@ -45,24 +45,26 @@ Note: The bot will not function without these environment variables.
 
 Project Structure
 
-👉 main.py: The main file to run the bot
-👉 telegram_handler.py: Handles Telegram interactions
-👉 gemini_handler.py: Handles interactions with the Gemini API
-👉 config.py: Configuration and environment variables
-👉 conversation_manager.py: Manages conversation history
-👉 utils.py: Utility functions
-👉 html_format.py: Formats messages in HTML
-👉 system_instruction.txt: System instructions for the bot
+- main.py: The main file to run the bot
+- telegram_handler.py: Handles Telegram interactions
+- gemini_handler.py: Handles interactions with the Gemini API
+- config.py: Configuration and environment variables
+- conversation_manager.py: Manages conversation history
+- utils.py: Utility functions
+- html_format.py: Formats messages in HTML
+- system_instruction.txt: System instructions for the bot
 
 
 Usage
 
 1. Run the bot:
-      python main.py
-   
+```
+python main.py
+```
    or
-      python3 main.py
-   
+```
+python3 main.py
+```
 
 2. In Telegram, start a conversation with your bot.
 
@@ -71,14 +73,14 @@ Usage
 
 Commands
 
-👉 /start: Starts a conversation with the bot
-👉 /clear: Clears the conversation history
+- /start: Starts a conversation with the bot
+- /clear: Clears the conversation history
 
 
 Customization
 
-👉 To change the system instructions, edit the system_instruction.txt file.
-👉 To add or remove allowed users, update the ALLOWED_USERS variable in the .env file.
+- To change the system instructions, edit the system_instruction.txt file.
+- To add or remove allowed users, update the ALLOWED_USERS variable in the .env file.
 
 
 Contributing
