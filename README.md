@@ -6,6 +6,7 @@
 
 - Xử lý tin nhắn văn bản
 - Phân tích hình ảnh (với hoặc không có caption)
+- Xửu lý file PDF
 - Giới hạn quyền truy cập cho người dùng cụ thể
 - Lưu trữ và sử dụng lịch sử hội thoại
 - Định dạng phản hồi bằng HTML
@@ -22,7 +23,7 @@
 - cd gemini-stable
 
 2. Cài đặt các thư viện cần thiết:
-- pip install python-telegram-bot google-generativeai python-dotenv Pillow
+- pip install python-telegram-bot google-generativeai python-dotenv Pillow pdfplumber
 
 3. Tạo file `.env` trong thư mục gốc của dự án và thêm các thông tin sau:
 - TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
