@@ -1,8 +1,8 @@
-Gemini Telegram Bot
+#Gemini Telegram Bot
 
 This is a Telegram bot powered by Google's Gemini AI, capable of handling both text and images.  The entire project's source code is written in Python, by Claude 3.5 Sonnet based on Huân's requirements and workflow, then refined and enhanced with additional features.
 
-Features:
+##Features:
 
 - Text message processing
 - Image analysis (with or without captions)
@@ -11,13 +11,13 @@ Features:
 - Storage and use of conversation history
 - HTML formatted responses
 
-Requirements:
+##Requirements:
 
 - Python 3.9+ (Huân is using Python 3.11 on Ubuntu 20.04).
 - A Telegram Bot Token (obtained by creating a new bot using BotFather).
 - A Google API Key for Gemini.
 
-Installation
+##Installation
 
 1. Clone this repository:
 ```
@@ -43,7 +43,7 @@ Note: The bot will not function without these environment variables.
 4. Create a `system_instruction.txt` file in the project root and add the system instructions for the bot:  (e.g., You are a helpful AI assistant...)
 
 
-Project Structure
+##Project Structure
 
 - `main.py`: The main file to run the bot
 - `telegram_handler.py`: Handles Telegram interactions
@@ -55,7 +55,7 @@ Project Structure
 - `system_instruction.txt`: System instructions for the bot
 
 
-Usage
+##Usage
 
 1. Run the bot:
 ```
@@ -71,18 +71,18 @@ python3 main.py
 3. Send text messages or images to receive responses from the bot.
 
 
-Commands
+##Commands
 
 - /start: Starts a conversation with the bot
 - /clear: Clears the conversation history
 
 
-Customization
+##Customization
 
 - To change the system instructions, edit the `system_instruction.txt` file.
 - To add or remove allowed users, update the ALLOWED_USERS variable in the `.env` file.
 
 
-Contributing
+##Contributing
 
 All contributions are welcome.  Please open an issue or create a pull request to contribute. You can also ping Huân on Telegram at @huank8895.
