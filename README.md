@@ -27,19 +27,20 @@ và di chuyển đến thư mục gốc của dự án:
 cd gemini-stable
 ```
 
-3. Cài đặt các thư viện cần thiết:
+2. Cài đặt các thư viện cần thiết:
 ```
 pip install python-telegram-bot google-generativeai python-dotenv Pillow pdfplumber
 ```
 
-4. Tạo file `.env` trong thư mục gốc của dự án và thêm các thông tin sau:
+3. Tạo file `.env` trong thư mục gốc của dự án và thêm các thông tin sau:
 ```
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
 GOOGLE_API_KEY=your_google_api_key_here
 ALLOWED_USERS=username1,username2,username3
 ```
+Lưu ý nếu ko có file .env chứa các biến này thì bot không hoạt động nhé.
 
-5. Tạo file `system_instruction.txt` trong thư mục gốc và thêm hướng dẫn hệ thống cho bot:
+4. Tạo file `system_instruction.txt` trong thư mục gốc và thêm hướng dẫn hệ thống cho bot:
 You are a helpful AI assistant (vân vân, tự bạn thêm vào nhé...).
 
 
