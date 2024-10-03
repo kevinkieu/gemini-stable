@@ -82,5 +82,5 @@ python3 main.py
 
 ## Đóng góp
 
-Mọi đóng góp đều được hoan nghênh. Vui lòng mở một issue hoặc tạo pull request để đóng góp. Hoặc có thể ping Huân qua Telegram nhé @huank8895.
+Mọi đóng góp đều được hoan nghênh. Vui lòng mở một issue hoặc tạo pull request để đóng góp. Hoặc có thể ping Huân qua Telegram nhé _@huank8895_.
 
