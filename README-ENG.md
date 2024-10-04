@@ -13,7 +13,7 @@ This is a Telegram bot powered by Google's Gemini AI, capable of handling both t
 
 ## Requirements:
 
-- Python 3.9+ (I am using Python 3.11 on Ubuntu 20.04).
+- Python 3.11+ **required especially, don't use the lower version!!!** (I am using Python 3.11 on Ubuntu 20.04). 
 - A Telegram Bot Token (obtained by creating a new bot using BotFather).
 - A Google API Key for Gemini.
 
