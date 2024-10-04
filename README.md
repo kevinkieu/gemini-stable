@@ -13,7 +13,7 @@
 
 ## Yêu cầu
 
-- Python 3.9+ (Huân đang dùng Python 3.11 trên Ubuntu 20.04 nhé)
+- Python 3.11+ (Huân đang dùng Python 3.11 trên Ubuntu 20.04 nhé). Nếu dùng phiên bản thấp hơn của Python3 thì khả năng không cập nhật được các thư viện cần thiết cho Dự án này.
 - Một Telegram Bot Token (dùng BotFather tạo bot mới và lấy token)
 - Một Google API Key cho Gemini.
 
