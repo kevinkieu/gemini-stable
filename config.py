@@ -8,10 +8,10 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 ALLOWED_USERS = os.getenv("ALLOWED_USERS", "").split(",")
 
 # Gemini model settings
-MODEL_NAME = "gemini-1.5-flash-8b-exp-0924"
+MODEL_NAME = "gemini-2.0-flash-exp"
 TEMPERATURE = 0.7
 TOP_P = 0.95
-TOP_K = 34
+TOP_K = 25
 MAX_TOKENS = 8024
 
 
