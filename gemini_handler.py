@@ -5,7 +5,7 @@ import pdfplumber
 
 genai.configure(api_key=GOOGLE_API_KEY)
 text_model = genai.GenerativeModel(MODEL_NAME)
-vision_model = genai.GenerativeModel('gemini-1.5-flash')
+vision_model = genai.GenerativeModel('gemini-2.5-flash')
 
 def generate_text(prompt, system_instruction, history):
     messages = [
